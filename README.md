@@ -58,7 +58,10 @@ ALGORITHM:
 
 
 ALGORITHM OF FIND FUNCTION IN MERKLE TREE
-Step 1: We will take tree and key as parameters.
+
+
+Step 1: We will take tree and key as para
+meters.
 
 
 
@@ -76,6 +79,8 @@ Step 5: else return find(tree->right, key)
 
 
 ALGORITHM TO ADD A NODE IN MERKLE TREE.
+
+
 Step 1: We will take key and value as parameters.
 
 
@@ -109,6 +114,8 @@ Step 8: If it is not present in the tree then we will use the insert function to
 
 
 ALGORITHM OF INSERT FUNCTION.
+
+
 Step 1: It will take tree and item pointers of node data type as parameters.
 
 
@@ -130,6 +137,8 @@ Step 5: If item->key is greater than tree->key and tree->right is not null then 
 
 
 ALGORITHM TO DELETE A NODE IN MERKLE TREE.
+
+
 Step 1: We will take a key as a parameter.
 
 
@@ -158,6 +167,8 @@ Step 7: If it is not null then we will use the remove function to delete the ele
 
 
 ALGORITHM OF REMOVE FUNCTION.
+
+
 Step 1: It will take tree and key as parameters.
 
 
