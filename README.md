@@ -9,7 +9,9 @@ Merkle tree (sometimes called hash tree) is a tree data structure in which each 
 We can utilise binary search to find the defective subtree if there is a variation in root hash across the 
 systems. We can discover the issue area, or problematic subtree, using simple log(N) complexity. 
 A Merkle is a tool for quickly and securely verifying information in vast amounts of data. 
-This structure aids in data consistency and content verification. Both Bitcoin and Ethereum make use of Merkle trees. It uses hash functions to maintain data integrity.
+This structure aids in data consistency and content verification. Both Bitcoin and Ethereum make use of Merkle trees. It uses hash functions to maintain data 
+integrity.
+
 
 USAGES:
 
@@ -26,6 +28,9 @@ ROLE OF MERKLE TREE IN BLOCK CHAIN:
 
 
 2.Merkle trees generate a digital fingerprint of the complete set of transactions, allowing for a quick check to see if a transaction is part of a block.
+
+
+
 
 TIME COMPLEXITY RELATED TO MERKLE TREE:
 
@@ -52,6 +57,11 @@ The space complexity is O( n ).
 ARCHITECTURE:
 
 
+
+
+
+
+
  
 ALGORITHM:
 
@@ -74,7 +84,10 @@ Step 3: If the tree->key is equal to the key we will return the tree.
 
 
 Step 4: If the key is smaller than tree->key then we will return find(tree->left, key)
+
+
 Step 5: else return find(tree->right, key)
+
 
 
 
@@ -113,6 +126,8 @@ Step 8: If it is not present in the tree then we will use the insert function to
 
 
 
+
+
 ALGORITHM OF INSERT FUNCTION.
 
 
@@ -133,6 +148,8 @@ Step 4: If item->key is greater than tree->key and tree->right is null then assi
 
 
 Step 5: If item->key is greater than tree->key and tree->right is not null then call insert function with tree->right and item as parameters.
+
+
 
 
 
@@ -164,6 +181,8 @@ Step 6: If the find function returns null then the key is not present in the tre
 
 
 Step 7: If it is not null then we will use the remove function to delete the element.
+
+
 
 
 ALGORITHM OF REMOVE FUNCTION.
@@ -221,6 +240,7 @@ Step 13: Return tree.
 
 
 
+
 REFERENCES:
 
 
@@ -235,4 +255,7 @@ https://github.com/goyalnikhil02/MerkleTree/blob/master/src/com/example/Vigenere
 
 https://iq.opengenus.org/merkle-tree/
 
+
+
+https://www.geeksforgeeks.org/introduction-to-merkle-tree/
 
