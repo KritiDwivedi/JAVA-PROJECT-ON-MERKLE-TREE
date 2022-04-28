@@ -219,3 +219,20 @@ Step 12: tree->left is equal to remove(tree->left, tree->key).
 
 Step 13: Return tree.
 
+
+
+REFERENCES:
+
+
+https://www.pranaybathini.com/2021/05/merkle-tree.html
+
+
+https://www.linkedin.com/pulse/merkle-tree-its-implementation-java-nikhil-goyal/
+
+
+https://github.com/goyalnikhil02/MerkleTree/blob/master/src/com/example/VigenereCipher.java
+
+
+https://iq.opengenus.org/merkle-tree/
+
+
