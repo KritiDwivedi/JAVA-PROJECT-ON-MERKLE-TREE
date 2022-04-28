@@ -22,14 +22,27 @@ ROLE OF MERKLE TREE IN BLOCK CHAIN:
 
 
 1.Merkle Tree is one of the most important data structures in the Bitcoin blockchain, as it is used to validate the presence of a transaction in a way that saves both space and time.
+
+
+
 2.Merkle trees generate a digital fingerprint of the complete set of transactions, allowing for a quick check to see if a transaction is part of a block.
 
 TIME COMPLEXITY RELATED TO MERKLE TREE:
 
 
 The time complexity for searching is O(log n) because the time complexity for searching in a binary tree is O(log n).
+
+
+
 The time complexity for insertion is O(log n).
+
+
+
 The time complexity for deletion is O(log n).
+
+
+
+
 The space complexity is O( n ).
 
 
