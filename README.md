@@ -58,6 +58,7 @@ ARCHITECTURE:
 
 
 
+![image](https://user-images.githubusercontent.com/99080306/165998503-9cfd2c41-c192-4f34-b070-91af593da515.png)
 
 
 
