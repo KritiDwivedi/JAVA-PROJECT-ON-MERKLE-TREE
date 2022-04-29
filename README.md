@@ -237,7 +237,7 @@ Step 12: tree->left is equal to remove(tree->left, tree->key).
 
 
 
-Step 13: Return tree.
+Step 13: Return tree..
 
 
 
