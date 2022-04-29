@@ -76,7 +76,7 @@ public class TreeBuilder
 		final MerkleTree merkleTree = new MerkleTree(md);
 		merkleTree.add(branch1, branch2);
 		
-		// Return the digest for the entire tree
+		// Return the digest for the entire tree.
 		merkleTree.prettyPrint();
 	}
 
