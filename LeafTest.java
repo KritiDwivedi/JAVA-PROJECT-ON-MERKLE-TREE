@@ -32,7 +32,7 @@ public class LeafTest
 			final byte[] block1 = {(byte) 0x01, (byte) 0x02, (byte) 0x03, (byte) 0x04};
 			final byte[] block2 = {(byte) 0xae, (byte) 0x45, (byte) 0x98, (byte) 0xff};
 		
-			// Create leaf nodes containing these blocks
+			// Create leaf nodes containing these blockss
 			blocks1and2 = new ArrayList<byte[]>();
 			blocks1and2.add(block1);
 			blocks1and2.add(block2);
