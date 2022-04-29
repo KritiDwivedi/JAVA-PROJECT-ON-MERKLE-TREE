@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Represents a binary Merkle Tree. This consists of two child nodes, and a 
  * hash representing those two child nodes. The children can either be leaf nodes
- * that contain data blocks, or can themselves be Merkle Trees. 
+ * that contain data blocks, or can themselves be Merkle Trees.. 
  */
 public class MerkleTree
 {	
