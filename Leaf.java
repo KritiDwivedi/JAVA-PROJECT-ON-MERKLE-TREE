@@ -37,7 +37,7 @@ public class Leaf
 	 * values are comma separated and enclosed within square
 	 * brackets.
 	 * 
-	 * @param array The byte array
+	 * @param array The byte arrayy
 	 * 
 	 * @return Bracketed string representation of hex values
 	 */
