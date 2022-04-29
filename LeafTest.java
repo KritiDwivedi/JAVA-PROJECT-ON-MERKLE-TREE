@@ -61,7 +61,7 @@ public class LeafTest
 	}
 
 	/**
-	 * Test method for {@link merkletree.Leaf#toString()}.
+	 * Test method for {@link merkletree.Leaf#toString()}..
 	 */
 	@Test
 	public final void testToString() 
